@@ -7,7 +7,7 @@
 /* Header*/
 header {
     background-color: #BFBCBA;
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -17,11 +17,12 @@ h1 {
     font-size: 35px;
     border: 2px solid black;
     border-radius: 0px 10px 10px 0px;
-    width: 45%;
-    height: 80px;
+    width: 40%;
+    height: 60px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    padding-right: 10px;
 }
 /* Navigation Bar and Links */
 .nav-bar{
