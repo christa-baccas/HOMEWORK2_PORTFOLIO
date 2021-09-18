@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header*/
+header {
+    background-color: #BFBCBA;
+    height: 150px;
+    position: static;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    border: 2px solid black;
+    border-radius: 0px 10px 10px 0px;
+    width: 400px;
+    text-align: center;
+    padding: 1%;
+    background-color: #A6775B;
+}
+/* Navigation Bar and Links */
+.nav-bar {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.links {
+    color:white;
+
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #73462D;
+    font-size: 25px;
+}
