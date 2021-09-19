@@ -22,13 +22,15 @@ body {
     background-color: teal;
     display: flex;
     justify-content: center;
-    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 .header-nav {
     text-align: center;
     display: flex;
     justify-content: center;
     background-color: thistle;
+    padding-bottom: 1rem;
 }
 
 .header-nav li {
@@ -39,8 +41,13 @@ body {
     color: teal;
 }
 
+/* Pseduo Classes and elements */
+.header-nav a:hover {
+    color: white;
+}
+
 /* Header Media Queries */
-@media screen and (min-width: 996px){
+@media screen and (min-width: 1280px){
     header {
         display: flex;
         justify-content: space-between;
@@ -58,6 +65,13 @@ body {
     .header-nav li { 
         display: inline;
         margin-right: 8rem;
+        gap: -10px;
+    }
+    .header-nav a{ 
+        cursor: pointer;
+        border-bottom: 4px solid teal;
+        font-size: 20px;
+        margin: -20px;
     }
 }
 
@@ -72,8 +86,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: teal;
-    height: 150px;
+    height: 180px;
+    background-image: url(/Images/image-6.jpeg);
+    background-size: cover;
 }
 
 /* Subheader Media Queries */
@@ -81,7 +96,9 @@ body {
     .subheader {
         display: flex;
         justify-content: end;
-    }
+        background-size:cover;    
+        border: 0px solid white;
+}
 
     h2 {
         background-color: thistle;
@@ -155,6 +172,7 @@ h5 {
     position: absolute;
     color: white;
 }
+
 .img2-txt a{
     position: absolute;
     top: 6rem;
@@ -256,7 +274,7 @@ h5 {
         font-size:25px;
         position: absolute;
         color: orange;
-        left: 105vh;
+        left: 86vh;
         top: 20vh;
         border: 2px solid white;
         text-decoration: none;
@@ -265,7 +283,7 @@ h5 {
     .img3-txt a{
         position: absolute;
         color: orange;
-        left: 105vh;
+        left: 86vh;
         top: 65vh;
         border: 2px solid white;
         border-radius: 0px 10px 0px 10px;
@@ -274,8 +292,8 @@ h5 {
     .img4-txt a{
         position: absolute;
         color: orange;
-        left: 105vh;
-        top: 105vh;
+        left: 86vh;
+        top: 100vh;
         text-decoration: none;
         border: 2px solid white;
         border-radius: 0px 10px 0px 10px;
@@ -283,7 +301,7 @@ h5 {
     .img5-txt a{
         position: absolute;
         color: orange;
-        left: 180vh;
+        left: 160vh;
         top: 65vh;
         border: 2px solid white;
         border-radius: 0px 10px 0px 10px;
@@ -292,35 +310,25 @@ h5 {
     .img6-txt a{
         position: absolute;
         color: orange;
-        left: 180vh;
-        top: 105vh;
+        left: 160vh;
+        top: 100vh;
         border: 2px solid white;
         text-decoration: none;
     }
+}
+/* Pseduo Classes and elements */
+img:hover
+ {
+    border: 4px solid red;
+    opacity: .5;
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Contact Section */
-/* footer div h3 {
+footer div h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     background-color: teal;
@@ -341,32 +349,9 @@ h5 {
 .footer-nav a {
     text-decoration: none;
     color: teal;
-} */
+} 
 
 /* Contact Media Queries */
-/* @media screen and (min-width: 996px){
-    footer{
-        display: flex;
-        height: 25vh;
-    }
-    footer div h3 {
-        flex: 30%;
-        align-content: center;
-        background-color: white;
-        border-right: 4px solid black;
-        height: 20vh;
-        padding-left: 14rem;
-        padding-right: 31px;
-        font-size: 40px;
-        margin-top: 40px;
-    }
-    .footer-nav ul {
-        display: flex;
-        flex: 70%;
-        background-color: white;
-        align-items: center;
-        justify-content: space-evenly;
-        margin-top: 40px;
-    }
-
-} */
+@media screen and (min-width: 996px){
+    
+}
