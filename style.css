@@ -1,3 +1,11 @@
+:root {
+    --darkgrey:(#403F3D);
+    --biege:(#BFAE9F);
+    --cream:(#F2E4D8);
+    --grey:(#737373);
+    --black:(#0D0D0D);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +19,7 @@ body {
 .title h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    background-color: thistle;
+    background-color: teal;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -23,81 +31,156 @@ nav {
     background-color: thistle;
 }
 
-nav ul li {
+nav li {
     margin-top: 1rem 
-    text
+}
+nav a {
+    text-decoration: none;
+    color: teal;
 }
 
-/* media queries */
+/* Header Media Queries */
 @media screen and (min-width: 996px){
     header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 130px;
+        height: 100px;
         background-color: thistle;
     }
     .title {
         margin-left: 1rem;
+        border-radius: 0px 10px 0px 10px;
+        /* border: 2px solid teal; */
+        background-color: teal;
+        padding: 1rem;
+        color: thistle;
     }
-    nav ul il { 
+    nav li { 
         display: inline;
         margin-right: 1rem;
     }
 }
 
+
+
+
+
+
 /* Subheader Section*/
 .subheader {
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: violet;
-    height: 150px;;
-}
-h3 {
-    text-align: center;
-    padding: 1rem;
+    background-color: teal;
+    height: 150px;
 }
 
-.section-title p {
-    text-align: left;
-}
-
-
-
-/* media queries */
+/* Subheader Media Queries */
 @media screen and (min-width: 996px){
     .subheader {
         display: flex;
         justify-content: end;
+    }
+
+    h2 {
+        background-color: thistle;
+        border-radius: 0px 10px 0px 10px;
+        border: 2px solid thistle;
+        margin-right: 3rem;
+        padding: 1rem;
+    } 
 }
+
+
+
+
+
+
+
 
 /* About Me Section */
 h3 {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 1rem;
 }
+
 p {
     margin-top: 2re;
-    width: calc(100% - 1rem);
+    /* width: calc(100% - 1rem); */
     margin: auto;
     margin-top: 1rem;
     line-height: 1.25rem;
 }
-.section-title1{
+
+/* About Me Media Queries */
+@media screen and (min-width: 996px){
+    .section-1 {
+        display: flex;
+    }    
+
+    h3 {
+        margin-top: 1rem;
+        margin-left: 2rem;
+        font-size: 40px;
+    }
+
+    article {
+        border-left: 4px solid black;
+        margin-top: 1rem;
+        padding-left: 3rem;
+    }
+}
+
+
+
+
+
+/* Work Section */
+.work h3 {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 1rem;
+}
+.primary-img img {
+    border: 4px solid teal;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
+    width: 100%;
 }
-/* media queries */
+
+.work h4 {
+    font-size: 15px;
+    padding: .5rem;
+    font-style:italic;
+}
+
+.secondary-img img {
+    border: 4px solid teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Work Media Queries */
 @media screen and (min-width: 996px){
-    .section-title {
-        display: flex;
-    }        
-    h3 {
+    .section-2{
+            display: flex;
+        }    
+    
+    .work h3 {
         margin: 2rem;
-        border-right: 4px solid black;
         font-size: 40px;
     }
+    .primary-img .secondary-img {
+        border-right: 4px solid black;
+
+    }
+    
 }
