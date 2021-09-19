@@ -143,8 +143,10 @@ p {
 
 
 /* Work Section */
-
-.img {
+.container-2{
+    position: relative;
+}
+img {
     width: 100%;
     height: 130px;
     object-fit: cover;
@@ -153,6 +155,53 @@ h5 {
     position: absolute;
     color: white;
 }
+.img2-txt a{
+    position: absolute;
+    top: 6rem;
+    color: orange;
+    border: 2px solid white;
+    border-radius: 0px 10px 0px 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img3-txt a{
+    position: absolute;
+    top: 14rem;
+    text-align: center;
+    color: orange;
+    border: 2px solid white;
+    border-radius: 0px 10px 0px 10px;
+    text-decoration: none;
+} 
+.img4-txt a{
+    position: absolute;
+    top: 22rem;
+    text-align: center;
+    color: orange;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 0px 10px 0px 10px;
+}
+.img5-txt a{
+    position: absolute;
+    top: 32rem;
+    text-align: center;
+    color: orange;
+    border: 2px solid white;
+    border-radius: 0px 10px 0px 10px;
+    text-decoration: none;
+}
+.img6-txt a{
+    position: absolute;
+    top: 40rem;
+    text-align: center;
+    color: orange;
+    border: 2px solid white;
+    border-radius: 0px 10px 0px 10px;
+    text-decoration: none;
+} 
+
 
 /* Work Media Queries */
 @media screen and (min-width: 996px){
@@ -160,6 +209,7 @@ h5 {
         display: flex;
         height: auto;
         margin-top: 4rem;
+        position: relative;
     }
     .section-2 {
         width: 17.6%;
@@ -206,37 +256,45 @@ h5 {
         font-size:25px;
         position: absolute;
         color: orange;
-        left: 100vh;
-        top: 130vh;
+        left: 105vh;
+        top: 20vh;
+        border: 2px solid white;
         text-decoration: none;
     }
 
     .img3-txt a{
         position: absolute;
         color: orange;
-        left: 95vh;
-        top: 170vh;
+        left: 105vh;
+        top: 65vh;
+        border: 2px solid white;
+        border-radius: 0px 10px 0px 10px;
         text-decoration: none;
     }
     .img4-txt a{
         position: absolute;
         color: orange;
-        left: 172vh;
-        top: 170vh;
+        left: 105vh;
+        top: 105vh;
         text-decoration: none;
+        border: 2px solid white;
+        border-radius: 0px 10px 0px 10px;
     }
     .img5-txt a{
         position: absolute;
         color: orange;
-        left: 95vh;
-        top: 205vh;
+        left: 180vh;
+        top: 65vh;
+        border: 2px solid white;
+        border-radius: 0px 10px 0px 10px;
         text-decoration: none;
     }
     .img6-txt a{
         position: absolute;
         color: orange;
-        left: 172vh;
-        top: 205vh;
+        left: 180vh;
+        top: 105vh;
+        border: 2px solid white;
         text-decoration: none;
     }
 }
