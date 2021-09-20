@@ -1,29 +1,26 @@
 :root {
-    --blue:#96D2D9;
-    --lightblue:#3C7DA6;
-    --cream:#F2E8C9;
-    --tav:#735B2F;
-    --brown:#401201;
+    --darkgrey:#403F3D;
+    --beige:#BFAE9F;
+    --cream:#F2E4D8;
+    --grey:#737373;
+    --black:#0D0D0D;
+    --white: #ffffff;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 main{
-    background-color: var(--cream); 
+    background-color: var(--grey); 
 }
 /******* Header Section ********/
 
 .title h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
-    background-color: var(--blue);;
+    background-color: var(--grey);;
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
@@ -33,7 +30,7 @@ main{
     text-align: center;
     display: flex;
     justify-content: center;
-    background-color: var;
+    background-color: var(--cream);
     padding-bottom: 1rem;
 }
 
@@ -42,13 +39,13 @@ main{
 }
 .header-nav a {
     text-decoration: none;
-    color: var(--lightblue);
+    color: var(--darkgrey);
 }
 
 /******* Pseduo ********/
 
 .header-nav a:hover {
-    color: var(--cream);
+    color: var(--black);
 }
 
 /******** Header Media Queries ********/
@@ -58,14 +55,15 @@ main{
         justify-content: space-between;
         align-items: center;
         height: 100px;
-        background-color: var(--tav);
+        background-color: var(--cream);
     }
     .title {
         margin-left: 1rem;
-        border-radius: 0px 10px 0px 10px;
-        background-color: var(--cream);
+        border-radius: 40px 10px 40px 10px;
+        background-color: var(--grey);
         padding: 1rem;
-        color: var(--tav);
+        padding-left: 6rem;
+        color: var(--cream);
     }
     .header-nav li { 
         display: inline;
@@ -74,7 +72,7 @@ main{
     }
     .header-nav a{ 
         cursor: pointer;
-        border-bottom: 4px solid var(--brown);
+        border-bottom: 4px solid var(--grey);
         font-size: 20px;
         margin: -20px;
     }
@@ -92,8 +90,9 @@ main{
     justify-content: center;
     align-items: center;
     height: 180px;
-    background-image: url(/Images/image-6.jpeg);
-    background-size: cover;
+    background-color: var(--beige);
+    /* background-image: url(/Images/image-6.jpeg);
+    background-size: cover; */
 }
 
 /* Subheader Media Queries */
@@ -102,13 +101,12 @@ main{
         display: flex;
         justify-content: end;
         background-size:cover;    
-        border: 0px solid var(--tar);
 }
 
     h2 {
-        background-color: thistle;
-        border-radius: 0px 10px 0px 10px;
-        border: 2px solid var(--brown);
+        background-color: var(--grey);
+        border-radius: 40px 10px 40px 10px;
+        border: 2px solid none;
         margin-right: 8rem;
         padding: 1rem;
     } 
@@ -122,19 +120,21 @@ main{
 
 
 /* About Me Section */
-h3 {
-    font-size: 20px;
+.section-1 h3 {
+    font-size: 3vw;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding: 1rem;
+    font-size: 5vw;
 }
 
 p {
     margin-top: 2rem;
-    /* width: calc(100% - 1rem); */
     margin: auto;
     margin-top: 1rem;
-    line-height: 1.25rem;
+    text-align: justify;
+    padding: 1rem;
+    letter-spacing: -1px;
 }
 
 /* About Me Media Queries */
@@ -145,7 +145,7 @@ p {
     }    
     .section-1 {
         flex: 20%;
-        border-right: 4px solid var(--brown);
+        border-right: .3rem solid var(--black);
         margin-top: 2rem;
         justify-content: end;
     }
@@ -160,8 +160,16 @@ p {
         margin-top: 1rem;
         margin-left: 3rem;
         margin-right: 8rem;
+        font-size: 1vw;
     }
 }
+
+
+
+
+
+
+
 
 
 /* Work Section */
@@ -173,16 +181,17 @@ img {
     height: 130px;
     object-fit: cover;
 }
-h5 {
-    position: absolute;
-    color: white;
+.section-2 h3 {
+    font-size: 5vw;
+    text-align: center;
+    padding: 1rem;
 }
 
 .img2-txt a{
     position: absolute;
     top: 6rem;
-    color: white;
-    border: 2px solid var(--brown);
+    color: var(--white);
+    border: 2px solid var(--white);
     border-radius: 0px 10px 0px 10px;
     text-decoration: none;
     text-align: center;
@@ -192,8 +201,8 @@ h5 {
     position: absolute;
     top: 14rem;
     text-align: center;
-    color: white;
-    border: 2px solid var(--brown);
+    color: var(--white);
+    border: 2px solid var(--white);
     border-radius: 0px 10px 0px 10px;
     text-decoration: none;
 } 
@@ -203,15 +212,15 @@ h5 {
     text-align: center;
     color: white;
     text-decoration: none;
-    border: 2px solid var(--brown);
+    border: 2px solid var(--white);
     border-radius: 0px 10px 0px 10px;
 }
 .img5-txt a{
     position: absolute;
     top: 32rem;
     text-align: center;
-    color: white;
-    border: 2px solid white;
+    color: var(--white);
+    border: 2px solid var(--white);
     border-radius: 0px 10px 0px 10px;
     text-decoration: none;
 }
@@ -219,24 +228,23 @@ h5 {
     position: absolute;
     top: 40rem;
     text-align: center;
-    color: white;
-    border: 2px solid var(--brown);
+    color: var(--white);
+    border: 2px solid var(--white);
     border-radius: 0px 10px 0px 10px;
     text-decoration: none;
 } 
 
 
-/* Work Media Queries */
+/******* Work Media Queries ********/
 @media screen and (min-width: 1279px){
     .container-2 {
         display: flex;
-        height: auto;
         margin-top: 4rem;
         position: relative;
     }
     .section-2 {
-        width: 17.6%;
-        border-right: 4px solid var(--brown);
+        width: 40%;
+        border-right: .3rem solid var(--black);
     }
     .section-2 h3 {
         font-size: 40px;
@@ -254,7 +262,7 @@ h5 {
         height: 45vh;
         object-fit: cover;   
         margin: 10px; 
-        border: 4px solid var(--brown);
+        border: 4px solid var(--beige);
     }
 
     .row-2 img {
@@ -264,7 +272,7 @@ h5 {
         flex-direction: row;
         object-fit: cover;    
         margin: 10px; 
-        border: 4px solid var(--brown);
+        border: 4px solid var(--beige);
     }
     .row-3 img {
         display: flex;
@@ -273,55 +281,60 @@ h5 {
         flex-direction: row;
         object-fit: cover;  
         margin: 10px;   
-        border: 4px solid var(--brown);
+        border: 4px solid var(--beige);
     }
      .img2-txt a{
         font-size:25px;
         position: absolute;
-        color: orange;
+        color: var(--cream);
         left: 86vh;
         top: 20vh;
-        border: 2px solid var(--brown);
+        border-radius: 40px 10px 40px 10px;
+        padding: 1rem;
         text-decoration: none;
     }
 
     .img3-txt a{
         position: absolute;
-        color: orange;
-        left: 86vh;
+        color: var(--cream);
+        left: 60vh;
         top: 65vh;
-        border: 2px solid var(--brown);
-        border-radius: 0px 10px 0px 10px;
+        border: 2px solid var(--cream);
+        border-radius: 40px 10px 40px 10px;
+        padding: 1rem;
         text-decoration: none;
     }
     .img4-txt a{
         position: absolute;
-        color: orange;
-        left: 86vh;
+        color: var(--cream);
+        left: 60vh;
         top: 100vh;
         text-decoration: none;
-        border: 2px solid var(--brown);
-        border-radius: 0px 10px 0px 10px;
+        border: 2px solid var(--cream);
+        border-radius: 40px 10px 40px 10px;
+        padding: 1rem;
     }
     .img5-txt a{
         position: absolute;
-        color: orange;
-        left: 160vh;
+        color: var(--cream);
+        left: 135vh;
         top: 65vh;
         border: 2px solid var(--brown);
-        border-radius: 0px 10px 0px 10px;
+        border-radius: 40px 10px 40px 10px;
+        padding: 1rem;
         text-decoration: none;
     }
     .img6-txt a{
         position: absolute;
         color: orange;
-        left: 160vh;
+        left: 135vh;
         top: 100vh;
-        border: 2px solid var(--brown);
+        border-radius: 40px 10px 40px 10px;
+        padding: 1rem;
         text-decoration: none;
     }
 }
-/* Pseduo Classes and elements */
+/* Pseduo */
 img:hover
  {
     border: 4px solid var(--tav);
@@ -335,11 +348,12 @@ img:hover
 /* Contact Section */
 footer div h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    background-color: var(--lightblue);
+    font-size: 8vw;
+    background-color: var(--grey);
     display: flex;
     justify-content: center;
     text-align: center;
+    height: 2rem;
 }
 .footer-nav {
     text-align: center;
@@ -353,7 +367,7 @@ footer div h3 {
 }
 .footer-nav a {
     text-decoration: none;
-    color: var(--lightblue);
+    color: var(--black);
 } 
 
 /* Contact Media Queries */
@@ -370,19 +384,32 @@ footer div h3 {
     footer div h3 {
         font-size: 40px;
         background-color: unset;
-        border-right: 4px solid var(--brown);
+        border-right: 4px solid var(--black);
+        margin-bottom: 1rem;
         justify-content: end;
-        height: 160px;
+        height: 130px;
+        padding-right: 15px;
 
     }
     .footer-nav {
         display: flex;
         width: 100%;
         padding-top: 60px;
+        background-color: var(--grey);
     }
     .footer-nav li{
         align-content: center;
         display: inline;
         margin-right: 8rem;
+        color: var();
     }
+    .footer-nav a{
+        color: var(--cream);
+        border-bottom: 4px solid var(--cream);
+    }
+}
+
+/******* Pseudo *******/
+.footer-nav a:hover {
+    color: var(--black);
 }
