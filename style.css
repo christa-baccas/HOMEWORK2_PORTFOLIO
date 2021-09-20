@@ -229,7 +229,7 @@ img {
     top: 40rem;
     text-align: center;
     color: var(--white);
-    border: 2px solid var(--white);
+    border: 2px solid var(--cream);
     border-radius: 0px 10px 0px 10px;
     text-decoration: none;
 } 
@@ -262,7 +262,7 @@ img {
         height: 45vh;
         object-fit: cover;   
         margin: 10px; 
-        border: 4px solid var(--beige);
+        border: 4px solid var(--cream);
     }
 
     .row-2 img {
@@ -272,7 +272,7 @@ img {
         flex-direction: row;
         object-fit: cover;    
         margin: 10px; 
-        border: 4px solid var(--beige);
+        border: 4px solid var(--cream);
     }
     .row-3 img {
         display: flex;
@@ -281,13 +281,14 @@ img {
         flex-direction: row;
         object-fit: cover;  
         margin: 10px;   
-        border: 4px solid var(--beige);
+        border: 4px solid var(--cream);
     }
      .img2-txt a{
         font-size:25px;
         position: absolute;
         color: var(--cream);
-        left: 86vh;
+        border: 2px solid var(--cream);
+        left: 61vh;
         top: 20vh;
         border-radius: 40px 10px 40px 10px;
         padding: 1rem;
@@ -297,7 +298,7 @@ img {
     .img3-txt a{
         position: absolute;
         color: var(--cream);
-        left: 60vh;
+        left: 61vh;
         top: 65vh;
         border: 2px solid var(--cream);
         border-radius: 40px 10px 40px 10px;
@@ -307,7 +308,7 @@ img {
     .img4-txt a{
         position: absolute;
         color: var(--cream);
-        left: 60vh;
+        left: 61vh;
         top: 100vh;
         text-decoration: none;
         border: 2px solid var(--cream);
@@ -319,14 +320,14 @@ img {
         color: var(--cream);
         left: 135vh;
         top: 65vh;
-        border: 2px solid var(--brown);
+        border: 2px solid var(--cream);
         border-radius: 40px 10px 40px 10px;
         padding: 1rem;
         text-decoration: none;
     }
     .img6-txt a{
         position: absolute;
-        color: orange;
+        color: var(--cream);
         left: 135vh;
         top: 100vh;
         border-radius: 40px 10px 40px 10px;
