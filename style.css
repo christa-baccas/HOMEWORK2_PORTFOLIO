@@ -452,46 +452,10 @@ font-size: 2vw;
           padding: 0 20px;
       }
     .imageOne{
-        background-image: url("./Images/image-1.jpeg");
         height:50vh;
         width: 830px;
-        margin-bottom: .5rem;
       }
-    .imageTwo {
-        background-image: url("./Images/image-2.jpeg");
-        width: 400px;
-        height: 200px;
-        margin-right: 10px;
-        padding-right: 8px;
-    }
-    .imageThree {
-        background-image: url("./Images/image-3.jpeg");
-        background-size: 300px 100px;
-        width: 400px;
-        height: 200px;
-        margin-bottom: 10px;
-    }
-    
-    .imageFour {
-        background-image: url("./Images/image-4.jpeg");
-        width: 400px;
-        height: 200px;
-        margin-right: 10px;
-        padding-right: 8px;
-    }
-    .imageFive{
-        background-image: url("./Images/image-5.jpeg");
-        width: 400px;
-        height: 200px;
-    }
 
-    .item{
-        display: flex;
-        align-items: flex-end ;
-        text-decoration: none;
-        background-size: cover; 
-        border: 5px solid var(--grey);
-    }
         /* Contact */
     .container-3 div a{
         padding: 10px;
