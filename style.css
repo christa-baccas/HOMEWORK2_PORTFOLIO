@@ -18,6 +18,7 @@ main {
 /******* Header Section ********/
 header{
     padding: 15px;
+    padding-right: 12rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,7 +69,7 @@ nav a:hover {
     height: 203px;
     border: 6px solid var(--cream);
     background-color: var(--white);
-    padding-right: 15px; 
+    padding-right: 12rem;
     background-color: rgb(43, 40, 40);
 } 
 .subheader div h2 {
@@ -102,6 +103,7 @@ img {
     font-size: 3vw;
 }
 article {
+    padding-right: 12rem;
     font-size: 1.3vw;
     padding-left: 2rem;
 }
