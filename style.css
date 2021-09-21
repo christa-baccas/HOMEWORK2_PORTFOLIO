@@ -201,7 +201,7 @@ figure{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-right: 15rem;
+    padding-right: 10rem;
 }
 .container-3 div a {
     border-bottom: 3px solid ;
@@ -213,7 +213,7 @@ figure{
 }
 /******* Pseudo *******/
 .container-3 div a:hover {
-font-size: 30px;
+font-size: 2vw;
 }
 
 
@@ -281,6 +281,55 @@ font-size: 30px;
         text-align: center;
         padding-bottom: 1rem;
     }
+
+    .container-2 {
+        display: block;
+    }
+    .container-2 > h3 {
+        border: unset;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 3vw;
+        text-align: center;
+        font-size: 6vw;
+        padding-bottom: 1rem;
+    }
+    figure{
+        padding: unset;
+    }
+    .imageOne, .imageTwo, .imageThree, .imageFour, .imageFive{
+        width: 100%;
+        height: 200px;
+        margin: unset;
+      }
+        /* Contact */
+        .container-3 {
+            display: block;
+            height: 8rem;
+            padding-top: 1rem;
+            padding-right: unset;
+        }
+        .container-3 > h3{ 
+            text-align: center;
+            border: unset;
+            font-size: 6vw;
+            padding-left: unset;
+            padding-right: unset;
+        }
+        .container-3 div {
+            display: block;
+            padding-right: unset;
+        }
+          
+        .container-3 div a {
+            font-size: 15px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            margin-right: unset;
+            padding: unset;
+        }
+
 }
 
 /* Ipad */
@@ -289,16 +338,12 @@ font-size: 30px;
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
+    /* Header */
     header {
-        display: flex;
         display: block;
     }
     header h1{
       border: none;
-      font-family: 'Open Sans', sans-serif;
-      font-size: 45px;
-      display: flex;
-      justify-content: center;
       border-bottom: 2px solid var(--black);
       }
     nav {
@@ -309,29 +354,27 @@ font-size: 30px;
     nav a {
       font-size: 30px;
       border: none;
-      text-align: center;
       display: flex;
       justify-content: center;
     }
+    /* Subheader */
     .subheader{
-        display: flex;
         border:none;
         height: 80px;
     }
     img{
         width:100%;
         border-radius:unset;
-        position: absolute;
         left: 0px;
         top: 34vh;
     }
     .subheader div h2{
         border:none;
         font-size: 35px;
-        display: flex;
-        text-align: center;
         padding-right: 10rem;
     }
+
+         /* About Me */
     .container-1 {
         padding-top: 25vh;
         display: block;
@@ -349,6 +392,50 @@ font-size: 30px;
         text-align: center;
         padding-bottom: 1rem;
     }
+
+    /* Work */
+    .container-2 {
+        display: block;
+    }
+    .container-2 > h3 {
+        border: unset;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 3vw;
+        text-align: center;
+        font-size: 6vw;
+        padding-bottom: 1rem;
+    }
+    figure{
+        padding: unset;
+    }
+    .imageOne, .imageTwo, .imageThree, .imageFour, .imageFive{
+        width: 100%;
+        height: 200px;
+        margin: unset;
+      }
+      /* Contact */
+      .container-3 {
+          display: block;
+          height: unset;
+      }
+      .container-3 > h3{ 
+        text-align: center;
+        border: unset;
+        font-size: 6vw;
+      }
+      .container-3 div {
+        display: block;
+        padding-right: unset;
+        padding-left: 8rem;
+      }
+    
+      .container-3 div a {
+        font-size: 30px;
+        border: none;
+        display: flex;
+        justify-content: center;
+      }
 }
 
 
@@ -359,6 +446,7 @@ font-size: 30px;
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
+        /* Work */
     figure{
           padding: 0 20px;
       }
@@ -395,7 +483,7 @@ font-size: 30px;
         width: 400px;
         height: 200px;
     }
-    
+
     .item{
         display: flex;
         align-items: flex-end ;
@@ -403,6 +491,7 @@ font-size: 30px;
         background-size: cover; 
         border: 5px solid var(--grey);
     }
+        /* Contact */
     .container-3 div a{
         padding: 10px;
     }
