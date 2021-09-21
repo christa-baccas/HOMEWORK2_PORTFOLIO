@@ -1,472 +1,472 @@
 :root {
-  --grey: #737373;
-  --beige: #D9D1C7;
-  --cream: #BFB8B0;
-  --white: #F2F2F2;
-  --black: #0D0D0D;
-  --lightgray: gainsboro;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
-main {
-  background-color: var(--beige);
-}
-
-/******* Header Section ********/
-header{
-    padding: 15px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--grey);
-}
-
-header h1 {
-  font-size: 4vw;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  border: 4px solid var(--cream);
-  padding: 10px;
-  color: var(--cream);
-}
-
-
-nav {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-nav a{
-    text-decoration: none;
-    padding: 5px 10px;
-    margin-right: 10px;
-    font-size: 20px;
-    border-bottom: 3px solid;
-    color: var(--cream);
-}
-
-/******* Header Navigation Bar Pseudo ********/
-
-nav a:hover {
-  color: var(--black);
-}
-
-
-
-/******* Subheader Section ******/
-.subheader {
-    font-size: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 203px;
-    border: 6px solid var(--cream);
-    background-color: var(--white);
-    padding-right: 15px; 
-    background-color: rgb(43, 40, 40);
-} 
-.subheader div h2 {
-    border: 6px solid var(--cream);
-    padding: 25px;
-    color: var(--black);
-}
-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    position: absolute;
-    left: 180px;
-    top:142px;
-    border-radius: 50px 50px 50px 50px;
-}
-
-
-
-/******* About Me Section *******/
-.container-1{
-    background-color: var(--beige);
-    display: flex;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-.container-1 > h3{
-    border-right: 4px solid var(--black);
-    padding-left: 13rem;
-    padding-right: 1rem;
-    font-size: 3vw;
-}
-article {
-    font-size: 1.3vw;
-    padding-left: 2rem;
-}
-
-
-/******* Work Section *******/
-.container-2{
-    display: flex;
-    padding-top: 3rem;
-}
-.container-2 > h3 {
-    border-right: 4px solid var(--black);
-    padding-left: 13rem;
-    padding-right: 1.8rem;
-    font-size: 3vw;
-}
-
-figure{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding: 0 15rem;
-}
- h2 {
-    color: var(--black);
-    border: 2px solid var(--white);
-    padding: 15px;
-    border: 4px solid var(--lightgray);
-    background-color: var(--lightgray);
-}
-
-
-.imageOne{
-    background-image: url("./Images/3.jpeg");
-    height:50vh;
-    width: 85.5vh;
-    margin-bottom: .5rem;
+    --grey: #737373;
+    --beige: #D9D1C7;
+    --cream: #BFB8B0;
+    --white: #F2F2F2;
+    --black: #0D0D0D;
+    --lightgray: gainsboro;
   }
-.imageTwo {
-    background-image: url("./Images/4.jpeg");
-    width: 400px;
-    height: 200px;
-    margin-right: 10px;
-    padding-right: 8px;
-}
-.imageThree {
-    background-image: url("./Images/6.jpeg");
-    background-size: 300px 100px;
-    width: 400px;
-    height: 200px;
-    margin-bottom: 10px;
-}
-
-.imageFour {
-    background-image: url("./Images/5.jpeg");
-    width: 400px;
-    height: 200px;
-    margin-right: 10px;
-    padding-right: 8px;
-}
-.imageFive{
-    background-image: url("./Images/9.jpeg");
-    width: 400px;
-    height: 200px;
-}
-
-.item{
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  main {
+    background-color: var(--beige);
+  }
+  
+  /******* Header Section ********/
+  header{
+      padding: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: var(--grey);
+  }
+  
+  header h1 {
+    font-size: 4vw;
     display: flex;
-    align-items: flex-end ;
-    text-decoration: none;
-    background-size: cover; 
-    border: 5px solid var(--grey);
-}
-
-/******* Work Section Images Pseudo******/
-.item:hover {
-  border: 4px solid var(--lightgray);
-  opacity: 0.5;
-}
-
-/******* Contact Section *******/
-.container-3 {
-    display: flex;
-    justify-content: space-between;
-    height: 8rem;
-    padding-top: 3rem;
-    margin-bottom: 2rem;
-    padding-right: 7rem;
-}
-.container-3 > h3 {
-    border-right: 4px solid var(--black);
-    padding-left: 9.6rem;
-    padding-right: 1rem;
-    font-size: 3vw;
-}
-.container-3  div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
     justify-content: center;
-    padding-right: 10rem;
-}
-.container-3 div a {
-    border-bottom: 3px solid ;
-    text-decoration: none;
-    padding: 5px 40px;
-    margin-right: 10px;
-    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border: 4px solid var(--cream);
+    padding: 10px;
+    color: var(--cream);
+  }
+  
+  
+  nav {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  nav a{
+      text-decoration: none;
+      padding: 5px 10px;
+      margin-right: 10px;
+      font-size: 20px;
+      border-bottom: 3px solid;
+      color: var(--cream);
+  }
+  
+  /******* Header Navigation Bar Pseudo ********/
+  
+  nav a:hover {
     color: var(--black);
-}
-/******* Contant Navigation Links Pseudo *******/
-.container-3 div a:hover {
-font-size: 2vw;
-}
-
-
-
-/****** Media Queries ******/
-
-/******* Iphone ********/
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    header {
+  }
+  
+  
+  
+  /******* Subheader Section ******/
+  .subheader {
+      font-size: 40px;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      height: 203px;
+      border: 6px solid var(--cream);
+      background-color: var(--white);
+      padding-right: 15px; 
+      background-color: rgb(43, 40, 40);
+  } 
+  .subheader div h2 {
+      border: 6px solid var(--cream);
+      padding: 25px;
+      color: var(--black);
+  }
+  img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      position: absolute;
+      left: 180px;
+      top:142px;
+      border-radius: 50px 50px 50px 50px;
+  }
+  
+  
+  
+  /******* About Me Section *******/
+  .container-1{
+      background-color: var(--beige);
+      display: flex;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+  }
+  .container-1 > h3{
+      border-right: 4px solid var(--black);
+      padding-left: 13rem;
+      padding-right: 1rem;
+      font-size: 3vw;
+  }
+  article {
+      font-size: 1.3vw;
+      padding-left: 2rem;
+  }
+  
+  
+  /******* Work Section *******/
+  .container-2{
+      display: flex;
+      padding-top: 3rem;
+  }
+  .container-2 > h3 {
+      border-right: 4px solid var(--black);
+      padding-left: 13rem;
+      padding-right: 1.8rem;
+      font-size: 3vw;
+  }
+  
+  figure{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      padding: 0 15rem;
+  }
+   h2 {
+      color: var(--black);
+      border: 2px solid var(--white);
+      padding: 15px;
+      border: 4px solid var(--lightgray);
+      background-color: var(--lightgray);
+  }
+  
+  
+  .imageOne{
+      background-image: url("./Images/3.jpeg");
+      height:50vh;
+      width: 85.5vh;
+      margin-bottom: .5rem;
+    }
+  .imageTwo {
+      background-image: url("./Images/4.jpeg");
+      width: 400px;
+      height: 200px;
+      margin-right: 10px;
+      padding-right: 8px;
+  }
+  .imageThree {
+      background-image: url("./Images/6.jpeg");
+      background-size: 300px 100px;
+      width: 400px;
+      height: 200px;
+      margin-bottom: 10px;
+  }
+  
+  .imageFour {
+      background-image: url("./Images/5.jpeg");
+      width: 400px;
+      height: 200px;
+      margin-right: 10px;
+      padding-right: 8px;
+  }
+  .imageFive{
+      background-image: url("./Images/9.jpeg");
+      width: 400px;
+      height: 200px;
+  }
+  
+  .item{
+      display: flex;
+      align-items: flex-end ;
+      text-decoration: none;
+      background-size: cover; 
+      border: 5px solid var(--grey);
+  }
+  
+  /******* Work Section Images Pseudo******/
+  .item:hover {
+    border: 4px solid var(--lightgray);
+    opacity: 0.5;
+  }
+  
+  /******* Contact Section *******/
+  .container-3 {
+      display: flex;
+      justify-content: space-between;
+      height: 8rem;
+      padding-top: 3rem;
+      margin-bottom: 2rem;
+      padding-right: 7rem;
+  }
+  .container-3 > h3 {
+      border-right: 4px solid var(--black);
+      padding-left: 9.6rem;
+      padding-right: 1rem;
+      font-size: 3vw;
+  }
+  .container-3  div {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      padding-right: 10rem;
+  }
+  .container-3 div a {
+      border-bottom: 3px solid ;
+      text-decoration: none;
+      padding: 5px 40px;
+      margin-right: 10px;
+      font-size: 20px;
+      color: var(--black);
+  }
+  /******* Contant Navigation Links Pseudo *******/
+  .container-3 div a:hover {
+  font-size: 2vw;
+  }
+  
+  
+  
+  /****** Media Queries ******/
+  
+  /******* Iphone ********/
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      header {
+            display: block;
+        }
+      header h1{
+          border: none;
+          font-family: 'Open Sans', sans-serif;
+          font-size: 5vw;
+          display: flex;
+          justify-content: center;
+          border-bottom: 2px solid var(--black);
+          }
+      nav {
+          padding-top: .5rem;
           display: block;
       }
-    header h1{
+      
+      nav a {
+          font-size: 4vw;
+          border: none;
+          text-align: center;
+          display: flex;
+          justify-content: center;
+      }
+  
+      .subheader{
+          display: flex;
+          border:none;
+          height: 75px;
+      }
+      img{
+          display: none;
+      }
+      .subheader div h2{
+          border:none;
+          font-size: 6vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-right: 3rem;
+          padding-left: 3rem;
+      }
+      .container-1 {
+          display: block;
+      }
+      article {
+          font-size: 4vw;
+          text-align: center;
+          padding-left: unset;
+      }
+      .container-1 h3 {
+          font-size: 6vw;
+          border: unset;
+          display: block;
+          padding-left: unset;
+          text-align: center;
+          padding-bottom: 1rem;
+      }
+  
+      .container-2 {
+          display: block;
+      }
+      .container-2 > h3 {
+          border: unset;
+          padding-left: 0;
+          padding-right: 0;
+          font-size: 3vw;
+          text-align: center;
+          font-size: 6vw;
+          padding-bottom: 1rem;
+      }
+      figure{
+          padding: unset;
+      }
+      .imageOne, .imageTwo, .imageThree, .imageFour, .imageFive{
+          width: 100%;
+          height: 200px;
+          margin: unset;
+        }
+          /******** Contact ********/
+          .container-3 {
+              display: block;
+              height: 8rem;
+              padding-top: 1rem;
+              padding-right: unset;
+          }
+          .container-3 > h3{ 
+              text-align: center;
+              border: unset;
+              font-size: 6vw;
+              padding-left: unset;
+              padding-right: unset;
+          }
+          .container-3 div {
+              display: block;
+              padding-right: unset;
+          }
+            
+          .container-3 div a {
+              font-size: 15px;
+              border: none;
+              display: flex;
+              justify-content: center;
+              margin-right: unset;
+              padding: unset;
+          }
+  
+  }
+  
+  /******** Ipad ********/
+  @media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 1) {
+  
+      /******** Header ********/
+      header {
+          display: block;
+      }
+      header h1{
         border: none;
-        font-family: 'Open Sans', sans-serif;
-        font-size: 5vw;
-        display: flex;
-        justify-content: center;
         border-bottom: 2px solid var(--black);
         }
-    nav {
+      nav {
         padding-top: .5rem;
         display: block;
-    }
-    
-    nav a {
-        font-size: 4vw;
-        border: none;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-
-    .subheader{
-        display: flex;
-        border:none;
-        height: 75px;
-    }
-    img{
-        display: none;
-    }
-    .subheader div h2{
-        border:none;
-        font-size: 6vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 3rem;
-        padding-left: 3rem;
-    }
-    .container-1 {
-        display: block;
-    }
-    article {
-        font-size: 4vw;
-        text-align: center;
-        padding-left: unset;
-    }
-    .container-1 h3 {
-        font-size: 6vw;
-        border: unset;
-        display: block;
-        padding-left: unset;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    .container-2 {
-        display: block;
-    }
-    .container-2 > h3 {
-        border: unset;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 3vw;
-        text-align: center;
-        font-size: 6vw;
-        padding-bottom: 1rem;
-    }
-    figure{
-        padding: unset;
-    }
-    .imageOne, .imageTwo, .imageThree, .imageFour, .imageFive{
-        width: 100%;
-        height: 200px;
-        margin: unset;
-      }
-        /******** Contact ********/
-        .container-3 {
-            display: block;
-            height: 8rem;
-            padding-top: 1rem;
-            padding-right: unset;
-        }
-        .container-3 > h3{ 
-            text-align: center;
-            border: unset;
-            font-size: 6vw;
-            padding-left: unset;
-            padding-right: unset;
-        }
-        .container-3 div {
-            display: block;
-            padding-right: unset;
-        }
-          
-        .container-3 div a {
-            font-size: 15px;
-            border: none;
-            display: flex;
-            justify-content: center;
-            margin-right: unset;
-            padding: unset;
-        }
-
-}
-
-/******** Ipad ********/
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-
-    /******** Header ********/
-    header {
-        display: block;
-    }
-    header h1{
-      border: none;
-      border-bottom: 2px solid var(--black);
-      }
-    nav {
-      padding-top: .5rem;
-      display: block;
-    }
-  
-    nav a {
-      font-size: 30px;
-      border: none;
-      display: flex;
-      justify-content: center;
-    }
-    /******** Subheader ********/
-    .subheader{
-        border:none;
-        height: 80px;
-    }
-    img{
-        width:100%;
-        border-radius:unset;
-        left: 0px;
-        top: 34vh;
-    }
-    .subheader div h2{
-        border:none;
-        font-size: 35px;
-        padding-right: 10rem;
-        padding-left: 12rem;
-
-    }
-
-    /******** About Me ********/
-    .container-1 {
-        padding-top: 25vh;
-        display: block;
-    }
-    article {
-        font-size: 4vw;
-        text-align: center;
-        padding-left: unset;
-    }
-    .container-1 h3 {
-        font-size: 6vw;
-        border: unset;
-        display: block;
-        padding-left: unset;
-        text-align: center;
-        padding-bottom: 1rem;
-    }
-
-    /******** Work ********/
-    .container-2 {
-        display: block;
-    }
-    .container-2 > h3 {
-        border: unset;
-        padding-left: 0;
-        padding-right: 0;
-        font-size: 3vw;
-        text-align: center;
-        font-size: 6vw;
-        padding-bottom: 1rem;
-    }
-    figure{
-        padding: unset;
-    }
-    .imageOne, .imageTwo, .imageThree, .imageFour, .imageFive{
-        width: 100%;
-        height: 200px;
-        margin: unset;
-      }
-      /******** Contact ********/
-      .container-3 {
-          display: block;
-          height: unset;
-      }
-      .container-3 > h3{ 
-        text-align: center;
-        border: unset;
-        font-size: 6vw;
-      }
-      .container-3 div {
-        display: block;
-        padding-right: unset;
-        padding-left: 8rem;
       }
     
-      .container-3 div a {
+      nav a {
         font-size: 30px;
         border: none;
         display: flex;
         justify-content: center;
       }
-}
-
-
-
-/******** Latop ********/
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-
-    /******** Work ********/
-    figure{
-          padding: 0 20px;
-      }
-    .imageOne{
-        height:50vh;
-        width: 830px;
+      /******** Subheader ********/
+      .subheader{
+          border:none;
+          height: 80px;
       }
       img{
-          top: 124px;
+          width:100%;
+          border-radius:unset;
+          left: 0px;
+          top: 34vh;
       }
-    /******** Contact ********/
-    .container-3 div a{
-        padding: 10px;
-    }
-    .container-3 h3 {
-        padding-right: 2rem;
-    }
-}
+      .subheader div h2{
+          border:none;
+          font-size: 35px;
+          padding-right: 10rem;
+          padding-left: 12rem;
+  
+      }
+  
+      /******** About Me ********/
+      .container-1 {
+          padding-top: 25vh;
+          display: block;
+      }
+      article {
+          font-size: 4vw;
+          text-align: center;
+          padding-left: unset;
+      }
+      .container-1 h3 {
+          font-size: 6vw;
+          border: unset;
+          display: block;
+          padding-left: unset;
+          text-align: center;
+          padding-bottom: 1rem;
+      }
+  
+      /******** Work ********/
+      .container-2 {
+          display: block;
+      }
+      .container-2 > h3 {
+          border: unset;
+          padding-left: 0;
+          padding-right: 0;
+          font-size: 3vw;
+          text-align: center;
+          font-size: 6vw;
+          padding-bottom: 1rem;
+      }
+      figure{
+          padding: unset;
+      }
+      .imageOne, .imageTwo, .imageThree, .imageFour, .imageFive{
+          width: 100%;
+          height: 200px;
+          margin: unset;
+        }
+        /******** Contact ********/
+        .container-3 {
+            display: block;
+            height: unset;
+        }
+        .container-3 > h3{ 
+          text-align: center;
+          border: unset;
+          font-size: 6vw;
+        }
+        .container-3 div {
+          display: block;
+          padding-right: unset;
+          padding-left: 8rem;
+        }
+      
+        .container-3 div a {
+          font-size: 30px;
+          border: none;
+          display: flex;
+          justify-content: center;
+        }
+  }
+  
+  
+  
+  /******** Latop ********/
+  @media screen 
+    and (min-device-width: 1200px) 
+    and (max-device-width: 1600px) 
+    and (-webkit-min-device-pixel-ratio: 1) { 
+  
+      /******** Work ********/
+      figure{
+            padding: 0 20px;
+        }
+      .imageOne{
+          height:50vh;
+          width: 830px;
+        }
+        img{
+            top: 124px;
+        }
+      /******** Contact ********/
+      .container-3 div a{
+          padding: 10px;
+      }
+      .container-3 h3 {
+          padding-right: 2rem;
+      }
+  }
