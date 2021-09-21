@@ -51,7 +51,7 @@ nav a{
     color: var(--cream);
 }
 
-/******* Pseduo ********/
+/******* Header Navigation Bar Pseudo ********/
 
 nav a:hover {
   color: var(--black);
@@ -107,7 +107,7 @@ article {
 }
 
 
-/* Work Section */
+/******* Work Section *******/
 .container-2{
     display: flex;
     padding-top: 3rem;
@@ -176,13 +176,13 @@ figure{
     border: 5px solid var(--grey);
 }
 
-/* Pseudo */
+/******* Work Section Images Pseudo******/
 .item:hover {
   border: 4px solid var(--lightgray);
   opacity: 0.5;
 }
 
-/* Contact Section */
+/******* Contact Section *******/
 .container-3 {
     display: flex;
     justify-content: space-between;
@@ -213,7 +213,7 @@ figure{
     font-size: 20px;
     color: var(--black);
 }
-/******* Pseudo *******/
+/******* Contant Navigation Links Pseudo *******/
 .container-3 div a:hover {
 font-size: 2vw;
 }
@@ -221,7 +221,8 @@ font-size: 2vw;
 
 
 /****** Media Queries ******/
-/* Iphone */
+
+/******* Iphone ********/
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)
@@ -304,7 +305,7 @@ font-size: 2vw;
         height: 200px;
         margin: unset;
       }
-        /* Contact */
+        /******** Contact ********/
         .container-3 {
             display: block;
             height: 8rem;
@@ -334,13 +335,13 @@ font-size: 2vw;
 
 }
 
-/* Ipad */
+/******** Ipad ********/
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    /* Header */
+    /******** Header ********/
     header {
         display: block;
     }
@@ -359,7 +360,7 @@ font-size: 2vw;
       display: flex;
       justify-content: center;
     }
-    /* Subheader */
+    /******** Subheader ********/
     .subheader{
         border:none;
         height: 80px;
@@ -378,7 +379,7 @@ font-size: 2vw;
 
     }
 
-         /* About Me */
+    /******** About Me ********/
     .container-1 {
         padding-top: 25vh;
         display: block;
@@ -397,7 +398,7 @@ font-size: 2vw;
         padding-bottom: 1rem;
     }
 
-    /* Work */
+    /******** Work ********/
     .container-2 {
         display: block;
     }
@@ -418,7 +419,7 @@ font-size: 2vw;
         height: 200px;
         margin: unset;
       }
-      /* Contact */
+      /******** Contact ********/
       .container-3 {
           display: block;
           height: unset;
@@ -444,13 +445,13 @@ font-size: 2vw;
 
 
 
-/* Latop */
+/******** Latop ********/
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
-        /* Work */
+    /******** Work ********/
     figure{
           padding: 0 20px;
       }
@@ -461,7 +462,7 @@ font-size: 2vw;
       img{
           top: 124px;
       }
-        /* Contact */
+    /******** Contact ********/
     .container-3 div a{
         padding: 10px;
     }
