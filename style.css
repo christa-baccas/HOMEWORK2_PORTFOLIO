@@ -26,14 +26,14 @@ header{
 }
 
 header h1 {
-  font-size: 60px;
+  font-size: 6vw;
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
   padding-top: 1rem;
   border: 4px solid var(--cream);
   padding: 10px;
-  color: var(--black);
+  color: var(--cream);
 }
 
 nav {
@@ -60,14 +60,15 @@ nav a:hover {
 
 /******* Subheader Section ******/
 .subheader {
-  font-size: 40px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 203px;
-  border: 6px solid var(--cream);
-  background-color: var(--white);
-  padding-right: 15px; 
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 203px;
+    border: 6px solid var(--cream);
+    background-color: var(--white);
+    padding-right: 15px; 
+    background-color: rgb(43, 40, 40);
 } 
 .subheader div h2 {
     border: 6px solid var(--cream);
@@ -80,10 +81,9 @@ img {
     object-fit: cover;
     position: absolute;
     left: 180px;
-    top:125px;
+    top:151px;
     border-radius: 50px 50px 50px 50px;
 }
-
 
 
 
@@ -216,7 +216,6 @@ figure{
 .container-3 div a:hover {
 font-size: 2vw;
 }
-
 
 
 
