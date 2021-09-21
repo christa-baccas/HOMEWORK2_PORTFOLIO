@@ -24,72 +24,26 @@ header{
     align-items: center;
 }
 
- header h1 {
+header h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 30px;
-  /* background-color: var(--grey); */
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
-/* header nav {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  background-color: var(--cream);
-  padding-bottom: 1rem;
-} */
-
-/* .header-nav li {
-  margin-top: 1rem;
-}
-.header-nav a {
-  text-decoration: none;
-  color: var(--darkgrey);
-}  */
 
 nav {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
+
 nav a{
     text-decoration: none;
     padding: 5px 10px;
     margin-right: 10px;
     font-size: 20px;
 }
-
-/******** Header Media Queries ********/
-/* @media screen and (min-width: 1279px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    background-color: var(--cream);
-  }
-  .title {
-    margin-left: 1rem;
-    border-radius: 40px 10px 40px 10px;
-    background-color: var(--grey);
-    padding: 1rem;
-    padding-left: 6rem;
-    color: var(--cream);
-  }
-  .header-nav li {
-    display: inline;
-    margin-right: 8rem;
-    gap: -10px;
-  }
-  .header-nav a {
-    cursor: pointer;
-    border-bottom: 4px solid var(--grey);
-    font-size: 20px;
-    margin: -20px;
-  }
-} */
 
 /******* Pseduo ********/
 
@@ -101,29 +55,12 @@ nav a{
 .subheader {
   font-size: 25px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 180px;
   background-color: var(--beige); 
   /* background-image: url(/Images/image-6.jpeg); */
 } 
- /*
-
-/****** Subheader Media Queries ********/
-/* @media screen and (min-width: 1279px) {
-  .subheader {
-    display: flex;
-    justify-content: end;
-  }
-
- .welcome {
-    background-color: var(--grey);
-    border-radius: 40px 10px 40px 10px;
-    border: 2px solid none;
-    margin-right: 8rem;
-    padding: 2rem;
-  }
-} */
 
 /* About Me Section */
 .container-1{
@@ -142,53 +79,11 @@ article {
     padding-left: 2rem;
 }
 
- /* .section-1 h3 {
-  font-size: 3vw;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-  padding: 1rem;
-  font-size: 5vw;
-} 
-
-p {
-  margin-top: 2rem;
-  margin: auto;
-  margin-top: 1rem;
-  text-align: justify;
-  padding: 1rem;
-  letter-spacing: -1px;
-}  */
-
-/* About Me Media Queries */
-/* @media screen and (max-width: 1279px) {
-  .container-1 {
-    display: flex;
-    height: 35vh;
-  }
-  .section-1 {
-    flex: 20%;
-    border-right: 0.3rem solid var(--black);
-    margin-top: 2rem;
-    justify-content: end;
-  }
-  .section-1 h3 {
-    font-size: 40px;
-    margin-top: 1rem;
-    float: right;
-  }
-
-  article {
-    flex: 80%;
-    margin-top: 1rem;
-    margin-left: 3rem;
-    margin-right: 8rem;
-    font-size: 1vw;
-  }
-} */
 
 /* Work Section */
 .container-2{
     display: flex;
+    margin-top: 3rem;
 }
 .container-2 > h3 {
     border-right: 4px solid var(--black);
@@ -196,305 +91,88 @@ p {
     padding-right: 1rem;
     font-size: 3vw;
 }
-figure .images {
-    display: flex;
-}
-.images a{
+
+figure{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    justify-content: center;
+    padding: 0 15rem;
 }
 
-.imageOne{background-image: url("./Images/image-1.jpeg");}
-.imageTwo {background-image: url("./Images/image-2.jpeg");}
-.imageThree{background-image: url("./Images/image-3.jpeg")}
-.imageFour {background-image: url("./Images/image-4.jpeg");}
-.imageFive{background-image: url("./Images/image-5.jpeg");}
+
+.imageOne{
+    background-image: url("./Images/image-1.jpeg");
+    height:300px;
+    width: 100px;
+    flex-basis: 100%;
+    margin-bottom: .5rem;
+  }
+.imageTwo {
+    background-image: url("./Images/image-2.jpeg");
+    width: 400px;
+    height: 200px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.imageThree {
+    background-image: url("./Images/image-3.jpeg");
+    background-size: 300px 100px;
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.imageFour {
+    background-image: url("./Images/image-4.jpeg");
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+}
+.imageFive{
+    background-image: url("./Images/image-5.jpeg");
+    width: 400px;
+    height: 200px;
+    margin-right: 10px;
+}
 
 .item{
     display: flex;
     align-items: flex-end ;
-    min-height: 250px;
-    max-height: 250px;
     text-decoration: none;
-    background-size: cover;
+    background-size: cover; 
 }
 
-/* .imageTwo .img3-txt {
-  padding: 8px 10px;
-} */ 
-
-/* .container-2 {
-  position: relative;
-}
-img {
-  width: 100%;
-  height: 130px;
-  object-fit: cover;
-}
-.section-2 h3 {
-  font-size: 5vw;
-  text-align: center;
-  padding: 1rem;
-}
-
-.img2-txt a {
-  position: absolute;
-  top: 6rem;
-  color: var(--white);
-  border: 2px solid var(--white);
-  border-radius: 0px 10px 0px 10px;
-  text-decoration: none;
-  text-align: center;
-}
-
-.img3-txt a {
-  position: absolute;
-  top: 14rem;
-  text-align: center;
-  color: var(--white);
-  border: 2px solid var(--white);
-  border-radius: 0px 10px 0px 10px;
-  text-decoration: none;
-}
-.img4-txt a {
-  position: absolute;
-  top: 22rem;
-  text-align: center;
-  color: white;
-  text-decoration: none;
-  border: 2px solid var(--white);
-  border-radius: 0px 10px 0px 10px;
-}
-.img5-txt a {
-  position: absolute;
-  top: 32rem;
-  text-align: center;
-  color: var(--white);
-  border: 2px solid var(--white);
-  border-radius: 0px 10px 0px 10px;
-  text-decoration: none;
-}
-.img6-txt a {
-  position: absolute;
-  top: 40rem;
-  text-align: center;
-  color: var(--white);
-  border: 2px solid var(--cream);
-  border-radius: 0px 10px 0px 10px;
-  text-decoration: none;
-}
-
-/******* Work Media Queries ********/
-/* @media screen and (min-width: 1279px) {
-  .container-2 {
-    display: flex;
-    margin-top: 25px 0;
-    padding: 10px 0;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-  
-  }
-  
-  .container-2 > h3{
-      text-align: right;
-      padding-right: 15px;
-      border-right: 4px solid var(--black);
-      font-size: 4vw;
-      line-height: 1; */
-  /* }  */
-
-  /* .section-2 {
-    width: 40%;
-    border-right: 0.3rem solid var(--black);
-  }
-
-  .section-2 h3 {
-    font-size: 40px;
-    float: right;
-  } */
-
-  /* .images {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 10rem;
-    justify-content: center;
-  } */
-  /* .row-1,
-  .row-2,
-  .row-3 {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .row-1 img {
-    width: 144vh;
-    height: 45vh;
-    object-fit: cover;
-    margin: 10px;
-    border: 4px solid var(--cream);
-  } */
-
-  /* .row-2 a img {
-        display: flex;
-        width: 70vh;
-        height: 30vh;
-        flex-direction: row;
-        object-fit: cover;    
-        margin: 10px; 
-        border: 4px solid var(--cream);
-    } */
-/* 
-.imageOne{
-    background-image: url("./Images/image-2.jpeg");
-}
-
-  .imageTwo {
-    background-image: url("./Images/image-3.jpeg");
- 
-  }
-
-  .item{
-      display: flex;
-      align-items: flex-end ;
-      min-height: 150px;
-      max-height: 150px;
-      text-decoration: none;
-      background-size: 150%;
-  }
-
-  .imageTwo .img3-txt {
-    padding: 8px 10px;
-  } */
-
-  /* .row-3 img {
-    display: flex;
-    width: 70vh;
-    height: 30vh;
-    flex-direction: row;
-    object-fit: cover;
-    margin: 10px;
-    border: 4px solid var(--cream);
-  }
-  .img2-txt a {
-    font-size: 25px;
-    position: absolute;
-    color: var(--cream);
-    border: 2px solid var(--cream);
-    left: 61vh;
-    top: 20vh;
-    border-radius: 40px 10px 40px 10px;
-    padding: 1rem;
-  } */
-
-  /* .img3-txt a {
-    position: absolute;
-    color: var(--cream);
-    left: 61vh;
-    top: 65vh;
-    border: 2px solid var(--cream);
-    border-radius: 40px 10px 40px 10px;
-    padding: 1rem;
-  } */
-  /* .img4-txt a {
-    position: absolute;
-    color: var(--cream);
-    left: 61vh;
-    top: 100vh;
-    border: 2px solid var(--cream);
-    border-radius: 40px 10px 40px 10px;
-    padding: 1rem;
-  }
-  .img5-txt a {
-    position: absolute;
-    color: var(--cream);
-    left: 135vh;
-    top: 65vh;
-    border: 2px solid var(--cream);
-    border-radius: 40px 10px 40px 10px;
-    padding: 1rem;
-  }
-  .img6-txt a {
-    position: absolute;
-    color: var(--cream);
-    left: 135vh;
-    top: 100vh;
-    border-radius: 40px 10px 40px 10px;
-    padding: 1rem;
-  } */
-}
-
-/* Pseduo */
+/* Pseudo */
 /* img:hover {
   border: 4px solid var(--tav);
   opacity: 0.5;
 }
 
 /* Contact Section */
-footer div h3 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 8vw;
-  background-color: var(--grey);
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 2rem;
-}
-.footer-nav {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  background-color: var(--cream);
-}
-
-.footer-nav li {
-  margin-top: 1rem;
-}
-.footer-nav a {
-  text-decoration: none;
-  color: var(--black);
-} */
-
-/* Contact Media Queries */
-/* @media screen and (min-width: 1279px) {
-  footer {
+.container-3 {
     display: flex;
-    height: 190px;
-    margin-top: 4rem;
-  }
-  footer div {
-    width: 21.7%;
-  }
-
-  footer div h3 {
-    font-size: 40px;
-    background-color: unset;
+    justify-content: space-between;
+    background-color: gray;
+    height: 6rem;
+}
+.container-3 > h3 {
     border-right: 4px solid var(--black);
-    margin-bottom: 1rem;
-    justify-content: end;
-    height: 130px;
-    padding-right: 15px;
-  }
-  .footer-nav {
-    display: flex;
-    width: 100%;
-    padding-top: 60px;
-    background-color: var(--grey);
-  }
-  .footer-nav li {
-    align-content: center;
-    display: inline;
-    margin-right: 8rem;
-    color: var();
-  }
-  .footer-nav a {
-    color: var(--cream);
-    border-bottom: 4px solid var(--cream);
-  } */
+    padding-left: 13rem;
+    padding-right: 1rem;
+    font-size: 3vw;
 }
-
+.container-3  div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.container-3 div a {
+    text-decoration: none;
+    padding: 5px 50px;
+    margin-right: 10px;
+    font-size: 20px;
+}
 /******* Pseudo *******/
 /* .footer-nav a:hover {
   color: var(--black);
