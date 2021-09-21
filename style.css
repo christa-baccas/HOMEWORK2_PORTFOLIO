@@ -18,7 +18,6 @@ main {
 /******* Header Section ********/
 header{
     padding: 15px;
-    padding-right: 12rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +68,7 @@ nav a:hover {
     height: 203px;
     border: 6px solid var(--cream);
     background-color: var(--white);
-    padding-right: 12rem;
+    padding-right: 15px; 
     background-color: rgb(43, 40, 40);
 } 
 .subheader div h2 {
@@ -103,7 +102,6 @@ img {
     font-size: 3vw;
 }
 article {
-    padding-right: 12rem;
     font-size: 1.3vw;
     padding-left: 2rem;
 }
@@ -190,7 +188,7 @@ figure{
     justify-content: space-between;
     height: 8rem;
     padding-top: 3rem;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
     padding-right: 7rem;
 }
 .container-3 > h3 {
@@ -453,6 +451,17 @@ font-size: 2vw;
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
+    header {
+        padding-right: 12rem;
+    }
+    .subheader{
+        padding-right: 12rem;
+
+    }
+    .container-1{
+        padding-right: 12rem;
+
+    }
     /******** Work ********/
     figure{
           padding: 0 20px;
