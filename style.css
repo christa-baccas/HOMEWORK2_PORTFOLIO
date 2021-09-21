@@ -125,28 +125,29 @@ figure{
     padding: 0 15rem;
 }
  h2 {
-    color: white;
+    color: var(--black);
     border: 2px solid var(--white);
     padding: 15px;
-    border: 4px solid var(--cream);
+    border: 4px solid var(--lightgray);
+    background-color: var(--lightgray);
 }
 
 
 .imageOne{
-    background-image: url("./Images/image-1.jpeg");
+    background-image: url("./Images/3.jpeg");
     height:50vh;
     width: 87.5vh;
     margin-bottom: .5rem;
   }
 .imageTwo {
-    background-image: url("./Images/image-2.jpeg");
+    background-image: url("./Images/4.jpeg");
     width: 400px;
     height: 200px;
     margin-right: 10px;
     padding-right: 8px;
 }
 .imageThree {
-    background-image: url("./Images/image-3.jpeg");
+    background-image: url("./Images/6.jpeg");
     background-size: 300px 100px;
     width: 400px;
     height: 200px;
@@ -154,14 +155,14 @@ figure{
 }
 
 .imageFour {
-    background-image: url("./Images/image-4.jpeg");
+    background-image: url("./Images/5.jpeg");
     width: 400px;
     height: 200px;
     margin-right: 10px;
     padding-right: 8px;
 }
 .imageFive{
-    background-image: url("./Images/image-5.jpeg");
+    background-image: url("./Images/9.jpeg");
     width: 400px;
     height: 200px;
 }
