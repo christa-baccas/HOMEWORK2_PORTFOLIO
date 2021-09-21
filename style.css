@@ -1,19 +1,19 @@
 :root {
-  --darkgrey: #403f3d;
-  --beige: #bfae9f;
-  --cream: #f2e4d8;
   --grey: #737373;
-  --black: #0d0d0d;
-  --white: #ffffff;
+  --beige: #D9D1C7;
+  --cream: #BFB8B0;
+  --white: #F2F2F2;
+  --black: #0D0D0D;
+  --lightgray: gainsboro;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* main {
-  background-color: var(--grey);
-} */
+main {
+  background-color: var(--beige);
+}
 
 /******* Header Section ********/
 header{
@@ -22,16 +22,18 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--grey);
 }
 
 header h1 {
-  font-size: 45px;
+  font-size: 60px;
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  border: 4px solid var(--beige);
+  border: 4px solid var(--cream);
   padding: 10px;
+  color: var(--black);
 }
 
 nav {
@@ -44,37 +46,50 @@ nav a{
     padding: 5px 10px;
     margin-right: 10px;
     font-size: 20px;
-    border-bottom: 3px solid ;
+    border-bottom: 3px solid;
+    color: var(--cream);
 }
 
 /******* Pseduo ********/
 
-/* .header-nav a:hover {
+nav a:hover {
   color: var(--black);
-} */
+}
+
+
 
 /******* Subheader Section ******/
 .subheader {
-  font-size: 25px;
+  font-size: 40px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 203px;
-  background-color: var(--beige); 
+  border: 6px solid var(--cream);
+  background-color: var(--white);
+  padding-right: 15px; 
 } 
+.subheader div h2 {
+    border: 6px solid var(--cream);
+    padding: 25px;
+    color: var(--black);
+}
 img {
     width: 200px;
     height: 200px;
     object-fit: cover;
     position: absolute;
-    left: 100px;
-    top:105px;
+    left: 180px;
+    top:125px;
     border-radius: 50px 50px 50px 50px;
 }
 
-/* About Me Section */
+
+
+
+/******* About Me Section *******/
 .container-1{
-    background-color: var(--grey);
+    background-color: var(--beige);
     display: flex;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -109,12 +124,18 @@ figure{
     justify-content: start;
     padding: 0 15rem;
 }
+ h2 {
+    color: white;
+    border: 2px solid var(--white);
+    padding: 15px;
+    border: 4px solid var(--cream);
+}
 
 
 .imageOne{
     background-image: url("./Images/image-1.jpeg");
     height:50vh;
-    width: 95.5vh;
+    width: 96.5vh;
     margin-bottom: .5rem;
   }
 .imageTwo {
@@ -150,11 +171,12 @@ figure{
     align-items: flex-end ;
     text-decoration: none;
     background-size: cover; 
+    border: 5px solid var(--grey);
 }
 
 /* Pseudo */
 .item:hover {
-  border: 4px solid var(--tav);
+  border: 4px solid var(--lightgray);
   opacity: 0.5;
 }
 
