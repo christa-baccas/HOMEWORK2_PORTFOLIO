@@ -451,17 +451,6 @@ font-size: 2vw;
   and (max-device-width: 1600px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
 
-    header {
-        padding-right: 12rem;
-    }
-    .subheader{
-        padding-right: 12rem;
-
-    }
-    .container-1{
-        padding-right: 12rem;
-
-    }
     /******** Work ********/
     figure{
           padding: 0 20px;
