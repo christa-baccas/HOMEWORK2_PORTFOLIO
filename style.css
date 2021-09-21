@@ -26,7 +26,7 @@ header{
 }
 
 header h1 {
-  font-size: 6vw;
+  font-size: 4vw;
   display: flex;
   justify-content: center;
   padding-bottom: 1rem;
@@ -35,6 +35,7 @@ header h1 {
   padding: 10px;
   color: var(--cream);
 }
+
 
 nav {
     display: flex;
@@ -81,7 +82,7 @@ img {
     object-fit: cover;
     position: absolute;
     left: 180px;
-    top:151px;
+    top:142px;
     border-radius: 50px 50px 50px 50px;
 }
 
@@ -136,7 +137,7 @@ figure{
 .imageOne{
     background-image: url("./Images/3.jpeg");
     height:50vh;
-    width: 87.5vh;
+    width: 85.5vh;
     margin-bottom: .5rem;
   }
 .imageTwo {
@@ -454,7 +455,9 @@ font-size: 2vw;
         height:50vh;
         width: 830px;
       }
-
+      img{
+          top: 124px;
+      }
         /* Contact */
     .container-3 div a{
         padding: 10px;
