@@ -7,7 +7,8 @@ In this project I've included the use of semantic tag, media queries, pseudo cla
 - Main:
     - About me: Two paragraphs
     - Work: 5 images in a flex container what will link you to future projects
-            - The main photo will link you to my first HW
+            - The main photo will link you to Project One
+            - Phots named weather bashboard and day planner has the assingment attached when clicked on
     - Contact: Footer section that have navigation links of my contact information. 
               Clicking on the email will open a draft and clicking on github will direct you to my github
 ## Link
