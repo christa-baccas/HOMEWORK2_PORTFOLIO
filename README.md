@@ -16,7 +16,7 @@ In this project I've included the use of semantic tag, media queries, pseudo cla
 https://christa-baccas.github.io/HOMEWORK2_PORTFOLIO/
 
 ## Screenshot
-![Alt txt](./Images/screencapture-10-0-1-5-53179-index-html-2021-09-21-14_49_52.png)
+![Alt txt](./Images/screencapture-10-0-1-5-49508-HOMEWORK2-PORTFOLIO-index-html-2021-10-26-09_08_23.png)
 
 ## Resources and Assistance Used
 - Worked with class members and tutor
