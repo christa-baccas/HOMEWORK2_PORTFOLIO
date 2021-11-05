@@ -7,8 +7,9 @@ In this project I've included the use of semantic tag, media queries, and pseudo
 - Main:
     - About me: Two paragraphs
     - Work: 5 images in a flex container that will link you to future projects and assignments.
-            - The main photo will link you to Project One.
+            - The main photo will link you to Project One: Fan Jam.
             - Photos named weather dashboard and day planner has the assingment attached when clicked.
+            - Project Two: Sweeper App
     - Contact: Footer section that have navigation links of my contact information. 
               - Clicking on the email will open a draft and clicking on github will direct you to my github page.
 ## Link
